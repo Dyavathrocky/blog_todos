@@ -9,6 +9,7 @@ verify_ssl = true
 django = "==2.2.0"
 djangorestframework = "==3.9.2"
 django-cors-headers = "==2.5.2"
+whitenoise = "*"
 
 [requires]
 python_version = "3.6"
