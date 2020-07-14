@@ -37,3 +37,4 @@ class PostView(viewsets.ModelViewSet):
 class UserView(viewsets.ModelViewSet):
     queryset = get_user_model().objects.all()
     serializer_class = UserSerializer
+    #added routers
